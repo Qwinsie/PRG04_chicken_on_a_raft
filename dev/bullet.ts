@@ -4,12 +4,12 @@ class Bullet {
     
     private div: HTMLElement
     
-    private x:number
-    private y:number
+    private x:number = 0
+    private y:number = 0
     private width:number = 22
     private height:number = 22
-    private xspeed:number
-    private yspeed:number
+    private xspeed:number = 0
+    private yspeed:number = 0
 
     constructor(x:number, y:number) {
         this.div = document.createElement("bullet")
