@@ -60,6 +60,8 @@ var Game = (function () {
         this.bullets = [];
         this.trees.push(new Tree(100, 100, this));
         this.trees.push(new Tree(100, 500, this));
+        this.trees.push(new Tree(100, 1000, this));
+        this.trees.push(new Tree(100, 1500, this));
         this.gameLoop();
     }
     Game.prototype.addBullet = function (x, y) {
