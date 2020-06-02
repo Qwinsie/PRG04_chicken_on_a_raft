@@ -9,6 +9,8 @@ class Game {
         // de game heeft trees nodig
         this.trees.push(new Tree(100,100,this))
         this.trees.push(new Tree(100,500,this))
+        this.trees.push(new Tree(100,1000,this))
+        this.trees.push(new Tree(100,1500,this))
 
         // start de game loop
         this.gameLoop()
