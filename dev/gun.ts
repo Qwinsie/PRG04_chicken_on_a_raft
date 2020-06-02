@@ -7,8 +7,6 @@ class Gun {
     private x:number
     private y:number
 
-
-
     constructor(chicken:Chicken,g:Game) {
         this.div = document.createElement("gun")
         chicken.div.appendChild(this.div)
